@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_chat import message
-# 変更
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import (
     SystemMessage,
